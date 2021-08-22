@@ -59,14 +59,25 @@ margin: 0px 25px;
   padding-right: 15px;
   display: flex;
 }
+.view1{
+width: 50%;
+}
+.view2{
+width: 50%;
+}
 .view{
-  width: 48%;
-  height: 90%;
-  overflow: scroll;
-  position: relative;
-  top: 80px;
-  height: 100vh;
   margin:5px 1%
+}
+
+.logOutBtn{
+  position: relative;
+  right: 0px;
+  width: 10%;
+  margin-left: auto;
+  margin-right: 30px;
+}
+.inputContainer{
+  display: flex;
 }
 .App-logo {
   height: 40vmin;
