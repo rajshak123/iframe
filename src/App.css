@@ -45,11 +45,10 @@ border: 1px solid #edd8d8;
 }
 .userName{
   text-align: left;
-  width: 20%;
-  margin: auto 0px;
+  width: 30%;
+  margin: auto 10px;
 }
 .inputTxtView{
-width: 25%;
 margin: 0px 25px;
 }
 
@@ -59,57 +58,34 @@ margin: 0px 25px;
   padding-right: 15px;
   display: flex;
 }
-.view1{
+.viewSubContainer{
 width: 50%;
-}
-.view2{
-width: 50%;
-}
-.view{
-  margin:5px 1%
 }
 
+.view{
+  margin:5px 1%;
+  border: 1px solid;
+  height: 100vh;
+}
+.marginLeftAuto{
+  margin-left: auto;
+}
 .logOutBtn{
   position: relative;
   right: 0px;
-  width: 10%;
+  width: 20%;
   margin-left: auto;
   margin-right: 30px;
 }
 .inputContainer{
   display: flex;
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inpLabelCon{
+  width: 60%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+iframe {
+  overflow: scroll;
 }

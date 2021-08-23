@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter, Switch } from 'react-router-dom';
 import PublicRoute from './Utils/PublicRoute'
 import PrivateRoute from './Utils/PrivateRoute'
 import LoginPage from './login';

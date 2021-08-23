@@ -22,7 +22,6 @@ class LoginPage extends Component {
   }
 
   handleSubmit(evt) {
-      console.log(this.props);
     evt.preventDefault();
 
     if (!this.state.username) {
